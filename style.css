@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: white;
+}
+#app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+#temp{
+    text-align: center;
+    font-size: 4.5rem;
+}
+#temp #temp-value{
+    color: black;
+    font-size: 10rem;
+}
+#temp #temp-unit{
+    color: black;
+    font-size: 3rem;
+}
+#temp-icon{
+    margin: 5rem;
+    width: 40%;
+    height: auto;
+}
+#location{
+    font-family: sans-serif;
+    color:black;
+    font-size: 4.5rem;
+}
